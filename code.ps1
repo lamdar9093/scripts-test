@@ -11,8 +11,4 @@ New-ADUser -Name "Joe Frida"
            -UserPrincipalName "joe.friday@lamdar.com"
            -SamAccountName "joe.friday"
            -EmailAddress "joe.friday@lamdar.com"
-           -Description "This is the uses description"
-           -OfficePhone "887-766-554-422"
-           -Path "OU=Domain Users,OU=lamdar,DC=lamdar,DC=com"
-           -ChangePasswordAtLogon $true
-
+           -Description "This is the uses descrip
