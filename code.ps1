@@ -15,5 +15,4 @@ New-ADUser -Name "Joe Frida"
            -OfficePhone "887-766-554-422"
            -Path "OU=Domain Users,OU=lamdar,DC=lamdar,DC=com"
            -ChangePasswordAtLogon $true
-           -AccountPassword $(ConvertTo-SecureString "P@sser123" -AsPlainText -Force)
-           -Enabled $true  
+
